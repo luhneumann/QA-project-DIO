@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PQD</projectKey>
+    <exportDate>2023-01-02 20:45:12 UTC</exportDate>
+    <folders>
+        <folder fullPath="Filtros" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="77556792" key="PQD-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Luana Neumann</createdBy>
+            <createdOn>2022-12-30 20:38:09 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Filtros]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja ver todos produtos disponíveis]]></name>
+            <owner>63acb30b030d706ab0e44763</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela ‘products’
+
+When clicar em ‘menu’
+
+And em seguida em ‘All products’
+
+Then aparecerá todos itens disponíveis para compra]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77556797" key="PQD-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Luana Neumann</createdBy>
+            <createdOn>2022-12-30 20:40:58 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Filtros]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja filtrar os itens da loja virtual pelo preço]]></name>
+            <owner>63acb30b030d706ab0e44763</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela ‘products’
+
+When clicar no ícone de funil
+
+Then aparecerá uma opção de listar os produtos pelo preço]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="77556811" key="PQD-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Luana Neumann</createdBy>
+            <createdOn>2022-12-30 20:43:17 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Filtros]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja filtrar os itens da loja virtual pelo nome]]></name>
+            <owner>63acb30b030d706ab0e44763</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o cliente esteja na tela ‘products’
+
+When clicar no ícone de funil
+
+Then aparecerá uma opção de listar os produtos pelo nome]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

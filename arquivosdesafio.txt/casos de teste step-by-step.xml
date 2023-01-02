@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>PQD</projectKey>
+    <exportDate>2023-01-02 20:44:34 UTC</exportDate>
+    <folders>
+        <folder fullPath="Carrinho de compras" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="77558254" key="PQD-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Luana Neumann</createdBy>
+            <createdOn>2022-12-30 21:19:33 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Carrinho de compras]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja ver os itens selecionados para compra]]></name>
+            <owner>63acb30b030d706ab0e44763</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL https://www.saucedemo.com/inventory.html]]></description>
+                        <expectedResult><![CDATA[Visualiza&ccedil;&atilde;o dos produtos dispon&iacute;veis para compra]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Na p&aacute;gina https://www.saucedemo.com/inventory.html&nbsp; - Clicar no bot&atilde;o &quot;cart&quot;]]></description>
+                        <expectedResult><![CDATA[Acessar a p&aacute;gina com itens selecionados para compra]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="77558260" key="PQD-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Luana Neumann</createdBy>
+            <createdOn>2022-12-30 21:24:06 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Carrinho de compras]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja alterar a quantidade de um determinado item escolhido]]></name>
+            <owner>63acb30b030d706ab0e44763</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL https://www.saucedemo.com/cart.html&nbsp;]]></description>
+                        <expectedResult><![CDATA[Visualizar carrinho de compras com itens selecionados<br /><br />]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Adicionar a quantidade desejada no campo &quot;QTY&quot; ao lado do item de interesse]]></description>
+                        <expectedResult><![CDATA[Atualizar quantidade de um item do pedido.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="77558275" key="PQD-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Luana Neumann</createdBy>
+            <createdOn>2022-12-30 21:28:13 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Carrinho de compras]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja continuar escolhendo itens]]></name>
+            <owner>63acb30b030d706ab0e44763</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar url https://www.saucedemo.com/cart.html]]></description>
+                        <expectedResult><![CDATA[Acessar carrinho de compras]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Clicar em bot&atilde;o &quot;continue shopping&quot;]]></description>
+                        <expectedResult><![CDATA[Ser redirecionado para a p&aacute;gina de produtos]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="77558277" key="PQD-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Luana Neumann</createdBy>
+            <createdOn>2022-12-30 21:29:52 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Carrinho de compras]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja finalizar a compra]]></name>
+            <owner>63acb30b030d706ab0e44763</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL https://www.saucedemo.com/cart.html]]></description>
+                        <expectedResult><![CDATA[Ser direcionado para o carrinho de compras]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Clicar no bot&atilde;o &quot;checkout&quot;]]></description>
+                        <expectedResult><![CDATA[Ser redirecionado para p&aacute;gina de dados de entrega]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
